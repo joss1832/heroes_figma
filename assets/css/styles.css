@@ -1,0 +1,85 @@
+.contenedor_principal{
+    border: 2px solid black;
+    width: 100%;
+    height: 50%;
+    top: 100px;
+    position: relative;
+    
+}
+
+.tarjetas{
+    border: solid;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 10%;
+
+}
+
+.tarjeta_fondo{
+    width: 300px;
+    height: 200px;
+
+}
+
+.goku_perfil{
+    width: 120px;
+    height: 118px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 70px;
+    left: 80px;
+}
+
+.gohan_perfil{
+    width: 120px;
+    height: 118px;
+    border-radius: 100%;
+    position: relative;
+    left: 80px;
+    bottom: 65px;
+
+}
+
+.vegeta_perfil{
+    width: 120px;
+    height: 118px;
+    border-radius: 100%;
+    position: relative;
+    left: 80px;
+    bottom: 65px;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.descuentos p{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+
+.header{
+    background-color: #00669F;
+    font-size: 40px;
+    position: relative;
+    width: 100%;
+    height: 102px;
+    top: 38px;
+    color: white;
+}
+
+.header p{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+body{
+    max-width: 100%;
+}
