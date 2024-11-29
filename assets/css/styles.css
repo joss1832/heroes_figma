@@ -1,19 +1,23 @@
-.contenedor_principal{
-    border: 2px solid black;
-    width: 100%;
-    height: 50%;
-    top: 100px;
-    position: relative;
-    
-}
-
 .tarjetas{
-    border: solid;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px black;
     width: 300px;
-    height: 500px;
     display: inline-block;
     margin-left: 10%;
 
+
+}
+.tarjetas p{
+    text-align: left;
+    
+}
+
+
+#texto {
+    padding-top: 33px;
 }
 
 .tarjeta_fondo{
@@ -22,64 +26,68 @@
 
 }
 
-.goku_perfil{
+.perfil{
     width: 120px;
     height: 118px;
     border-radius: 100%;
     position: relative;
     bottom: 70px;
-    left: 80px;
-}
-
-.gohan_perfil{
-    width: 120px;
-    height: 118px;
-    border-radius: 100%;
-    position: relative;
-    left: 80px;
-    bottom: 65px;
-
-}
-
-.vegeta_perfil{
-    width: 120px;
-    height: 118px;
-    border-radius: 100%;
-    position: relative;
-    left: 80px;
-    bottom: 65px;
+    left: 5px;
 }
 
 .descuentos{
     background-color: #1CD1B0;
-    width: 100%;
-    height: 38px;
     font-size: 17px;
-    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .descuentos p{
-    position: relative;
-    left: 30px;
-    bottom: 10px;
+    
+    padding-top: 20px;
 }
 
-.header{
+
+header{
     background-color: #00669F;
     font-size: 40px;
-    position: relative;
-    width: 100%;
-    height: 102px;
-    top: 38px;
+    margin-top: 80px;
     color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
 }
 
-.header p{
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 124352;
+}
+
+*{
+    margin: 0;
+}
+
+footer{
+    background-color: #00669F;
+    margin-top: 200px;
+    color: white;
+    padding: 20px;
+}
+
+.corazon{
     position: relative;
-    left: 50px;
-    top: 20px;
+    top: 50px;
+    left: 0px;
 }
 
-body{
-    max-width: 100%;
+.ver_mas {
+    background-color: #00669F;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    left: 100px;
+    margin: 20px;
 }
+
+
